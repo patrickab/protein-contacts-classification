@@ -81,8 +81,7 @@ if __name__ == '__main__':
     # Calculate DSSP
     dssp = {}
     try:
-        print(config["dssp_file"])
-        dssp = dict(DSSP(structure[0], args.pdb_file, dssp=config["dssp_file"]))
+        dssp = dict(DSSP(structure[0], args.pdb_file, dssp="dssp"))
     except Exception:
         logging.warning(f"{pdb_id} DSSP error")
 
