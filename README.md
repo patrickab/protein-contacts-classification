@@ -1,5 +1,9 @@
 # Protein Contacts Classification
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/d919fdd7-e0bf-46fa-8d99-b891db1572e3" alt="image" width="500">
+</div>
+
 ## Overview
 
 The goal of this project is to learn to predict the tertiary structure of amino-acid contacts within proteins based on .pdf protein data.
